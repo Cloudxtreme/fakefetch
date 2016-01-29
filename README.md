@@ -1,7 +1,7 @@
 #          FAKEFETCH 1.0          #
-  The most plebeian screenfetch  
-        clone in existence       
-#-------------CONTENTS------------#
+The most plebeian screenfetch clone in existence       
+
+-------------CONTENTS------------
  1. Introduction
  2. Picking the right version    
  3. Configuring fakefetch        
@@ -16,9 +16,7 @@ are entered manually.
 
  2. | PICKING THE RIGHT VERSION   
 
-+-----------------------------------------------------------------------------------------------+
-|Fakefetch is currently only geared towards Solaris, however HP-UX and AIX versions are planned.|
-+-----------------------------------------------------------------------------------------------+
+**Fakefetch is currently only geared towards Solaris, however HP-UX and AIX versions are planned.
 
 "Headless" systems accessed solely through SSH or console should use the fakefetch-h script, which comes in three flavors:
 fakefetch-hm: Colorless version for monochrome serial "dumb" terminals or terminal emulators with no color support.
