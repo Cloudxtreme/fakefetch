@@ -1,0 +1,75 @@
+###################################
+#    FAKEFETCH for Solaris 1.0    #
+#     For headless systems or     #
+#   servers with 16 color support #   
+###################################
+#     Edit the variables below    #
+#      to better reflect your     #
+#       host's configuration      #
+###################################
+OS="Solaris 10 10/09"             # Operating System
+KERNEL="SunOS 5.10 14144-09"      # Kernel Version
+CPU="UltraSPARC IIi @ 650 MHz"    # Microprocessor
+RAM="2048 MiB"                    # RAM size
+DISK="120 GB Seagate ST3120022A"  # Primary mass storage
+###################################
+
+echo -e "\e[35m"
+echo "                    __"
+echo "                  ,'  \`."
+echo "                 (   ,. \`."
+echo "               ,'.\`. \`.\`. \`."
+echo "             ,.\`. \`.\`. \`.\`. \`."
+echo "            '. \`.\`. \`.\`. \`.\`. \`,"
+echo "          ,\`. \`. \`.\`. \`.\`. \`.\`' ,\`."
+echo -n "        ,' ,',. \`. \`.\`. \`.\`,' ,' ,',.           "
+echo -en "\e[96m"
+echo -n "Host: "
+tput sgr0
+echo "$HOSTNAME"
+echo -en "\e[35m"
+echo -n "      ,' ,',' ,\`__\`. \`'   ) ,' ,',' ,\`__        "
+echo -en "\e[96m"
+echo -n "OS: "
+tput sgr0
+echo "$OS"
+echo -en "\e[35m"
+echo -n "    ,' ,',' ,','  \`.\`.__.',' ,',' ,','  \`.      "
+echo -en "\e[96m"
+echo -n "Kernel: "
+tput sgr0
+echo "$KERNEL"
+echo -en "\e[35m"
+echo -n "  ,' ,',' ,',' ,.   )   ,' ,',' ,',' ,.   )     "
+echo -en "\e[96m"
+echo -n "CPU: "
+tput sgr0
+echo "$CPU"
+echo -en "\e[35m"
+echo -n " (   \`' ,',' ,',' ,'__ (   \`' ,',' ,',' ,'      "
+echo -en "\e[96m"
+echo -n "RAM: "
+tput sgr0
+echo "$RAM"
+echo -en "\e[35m"
+echo -n "  \`.__,',' ,',' ,','  \`.\`.__,',' ,',' ,'        "
+echo -en "\e[96m"
+echo -n "Disk: "
+tput sgr0
+echo "$DISK"
+echo -en "\e[35m"
+echo -n "      .' ,',' ,' (   ,. \`.  .' ,',' ,'          "
+echo -en "\e[96m"
+echo -n "Shell: "
+tput sgr0
+echo "$SHELL"
+echo -en "\e[35m"
+echo "       \`',' ,','. \`. \`.\`. \`. \`',' ,'"
+echo "         \`.',.\`. \`. \`. \`.\`. \`. \`.'"
+echo "           '. \`.\`. \`. \`. \`.\`. \`,"
+echo "             \`. \`.\`. \`. \`. \`.\`'"
+echo "               \`. \`.\`. \`. \`,'"
+echo "                 \`. \`'   )"
+echo "                   \`.__,'"
+echo ""
+tput sgr0
