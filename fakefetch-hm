@@ -1,0 +1,53 @@
+###################################
+#    FAKEFETCH for Solaris 1.0    #
+#     For headless systems or     #
+#  servers without color support  #   
+###################################
+#     Edit the variables below    #
+#      to better reflect your     #
+#       host's configuration      #
+###################################
+OS="Solaris 10 10/09"             # Operating System
+KERNEL="SunOS 5.10 14144-09"      # Kernel Version
+CPU="UltraSPARC IIi @ 650 MHz"    # Microprocessor
+RAM="2048 MiB"                    # RAM size
+DISK="120 GB Seagate ST3120022A"  # Primary mass storage
+###################################
+
+echo ""
+echo "                    __"
+echo "                  ,'  \`."
+echo "                 (   ,. \`."
+echo "               ,'.\`. \`.\`. \`."
+echo "             ,.\`. \`.\`. \`.\`. \`."
+echo "            '. \`.\`. \`.\`. \`.\`. \`,"
+echo "          ,\`. \`. \`.\`. \`.\`. \`.\`' ,\`."
+echo -n "        ,' ,',. \`. \`.\`. \`.\`,' ,' ,',.           "
+echo -n "Host: "
+echo "$HOSTNAME"
+echo -n "      ,' ,',' ,\`__\`. \`'   ) ,' ,',' ,\`__        "
+echo -n "OS: "
+echo "$OS"
+echo -n "    ,' ,',' ,','  \`.\`.__.',' ,',' ,','  \`.      "
+echo -n "Kernel: "
+echo "$KERNEL"
+echo -n "  ,' ,',' ,',' ,.   )   ,' ,',' ,',' ,.   )     "
+echo -n "CPU: "
+echo "$CPU"
+echo -n " (   \`' ,',' ,',' ,'__ (   \`' ,',' ,',' ,'      "
+echo -n "RAM: "
+echo "$RAM"
+echo -n "  \`.__,',' ,',' ,','  \`.\`.__,',' ,',' ,'        "
+echo -n "Disk: "
+echo "$DISK"
+echo -n "      .' ,',' ,' (   ,. \`.  .' ,',' ,'          "
+echo -n "Shell: "
+echo "$SHELL"
+echo "       \`',' ,','. \`. \`.\`. \`. \`',' ,'"
+echo "         \`.',.\`. \`. \`. \`.\`. \`. \`.'"
+echo "           '. \`.\`. \`. \`. \`.\`. \`,"
+echo "             \`. \`.\`. \`. \`. \`.\`'"
+echo "               \`. \`.\`. \`. \`,'"
+echo "                 \`. \`'   )"
+echo "                   \`.__,'"
+echo ""
