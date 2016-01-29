@@ -1,0 +1,75 @@
+###################################
+#    FAKEFETCH for Solaris 1.0    #
+#     For headless systems or     #
+#    servers with color support   #   
+###################################
+#     Edit the variables below    #
+#      to better reflect your     #
+#       host's configuration      #
+###################################
+OS="Solaris 10 10/09"             # Operating System
+KERNEL="SunOS 5.10 14144-09"      # Kernel Version
+CPU="UltraSPARC IIi @ 650 MHz"    # Microprocessor
+RAM="2048 MiB"                    # RAM size
+DISK="120 GB Seagate ST3120022A"  # Primary mass storage
+###################################
+
+echo -e "\e[38;5;105m"
+echo "                    __"
+echo "                  ,'  \`."
+echo "                 (   ,. \`."
+echo "               ,'.\`. \`.\`. \`."
+echo "             ,.\`. \`.\`. \`.\`. \`."
+echo "            '. \`.\`. \`.\`. \`.\`. \`,"
+echo "          ,\`. \`. \`.\`. \`.\`. \`.\`' ,\`."
+echo -n "        ,' ,',. \`. \`.\`. \`.\`,' ,' ,',.           "
+echo -en "\e[38;5;117m"
+echo -n "Host: "
+echo -en "\e[38;5;109m"
+echo "$HOSTNAME"
+echo -en "\e[38;5;105m"
+echo -n "      ,' ,',' ,\`__\`. \`'   ) ,' ,',' ,\`__        "
+echo -en "\e[38;5;117m"
+echo -n "OS: "
+echo -en "\e[38;5;109m"
+echo "$OS"
+echo -en "\e[38;5;105m"
+echo -n "    ,' ,',' ,','  \`.\`.__.',' ,',' ,','  \`.      "
+echo -en "\e[38;5;117m"
+echo -n "Kernel: "
+echo -en "\e[38;5;109m"
+echo "$KERNEL"
+echo -en "\e[38;5;105m"
+echo -n "  ,' ,',' ,',' ,.   )   ,' ,',' ,',' ,.   )     "
+echo -en "\e[38;5;117m"
+echo -n "CPU: "
+echo -en "\e[38;5;109m"
+echo "$CPU"
+echo -en "\e[38;5;105m"
+echo -n " (   \`' ,',' ,',' ,'__ (   \`' ,',' ,',' ,'      "
+echo -en "\e[38;5;117m"
+echo -n "RAM: "
+echo -en "\e[38;5;109m"
+echo "$RAM"
+echo -en "\e[38;5;105m"
+echo -n "  \`.__,',' ,',' ,','  \`.\`.__,',' ,',' ,'        "
+echo -en "\e[38;5;117m"
+echo -n "Disk: "
+echo -en "\e[38;5;109m"
+echo "$DISK"
+echo -en "\e[38;5;105m"
+echo -n "      .' ,',' ,' (   ,. \`.  .' ,',' ,'          "
+echo -en "\e[38;5;117m"
+echo -n "Shell: "
+echo -en "\e[38;5;109m"
+echo "$SHELL"
+echo -en "\e[38;5;105m"
+echo "       \`',' ,','. \`. \`.\`. \`. \`',' ,'"
+echo "         \`.',.\`. \`. \`. \`.\`. \`. \`.'"
+echo "           '. \`.\`. \`. \`. \`.\`. \`,"
+echo "             \`. \`.\`. \`. \`. \`.\`'"
+echo "               \`. \`.\`. \`. \`,'"
+echo "                 \`. \`'   )"
+echo "                   \`.__,'"
+echo ""
+tput sgr0
